@@ -1,0 +1,95 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" [routerLink]="['/home']"><img src="assets/images/Logo_menu.png" width="200" height="50"/></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+		<li class="nav-item">
+		  <a class="nav-link" [routerLink]="['/home']"><b>HOME</b> </a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#"><b>ABOUT US</b></a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#"><b>PROJECTS</b></a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#"><b>CONTACT US</b></a>
+		  </li>
+		
+	  </ul>
+	  <form class="form-inline my-2 my-lg-0">
+		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	  </form>
+	</div>
+  </nav>
+  <router-outlet></router-outlet>
+    <footer class="site-footer">
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-12 col-md-6">
+			  <h6>About</h6>
+			  <img src="assets/images/Logo_menu.png" width="200" height="50"/>
+			  <p><b>Address:</b></p>
+			  <p> 11-4-94, </p>
+			  <p> Bharath Nagar,</p>
+			  <p>Shivaji Nagar, Siddipet, Telangana 502103</p>
+			</div>
+  
+			<div class="col-xs-6 col-md-3">
+			  <h6>Contact Us</h6>
+			  <ul class="footer-links">
+				<li>
+					<div class="info-box">
+						<div class="info-box-content">
+							<p class="info-box-title">Call Us</p>
+							<p class="info-box-subtitle">(+9) 847-291-4353</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="info-box">
+						<div class="info-box-content">
+							<p class="info-box-title">Email Us</p>
+							<p class="info-box-subtitle">office@Constra.com</p>
+						</div>
+					</div>
+				</li>
+			  </ul>
+			</div>
+  
+			<div class="col-xs-6 col-md-3">
+			  <h6>Quick Links</h6>
+			  <ul class="footer-links">
+				<li><a href="http://scanfcode.com/about/">About Us</a></li>
+				<li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+				<li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+				<li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+				<li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+			  </ul>
+			</div>
+		  </div>
+		  <hr>
+		</div>
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-8 col-sm-6 col-xs-12">
+			  <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by 
+		   <a href="#">SRI HARI SAI CONSTRUCTIONS</a>.
+			  </p>
+			</div>
+  
+			<div class="col-md-4 col-sm-6 col-xs-12">
+			  <ul class="social-icons">
+				<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+				<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+				<li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+				<li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+			  </ul>
+			</div>
+		  </div>
+		</div>
+  </footer>
